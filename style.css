@@ -1,0 +1,64 @@
+body {
+    background: url("background.png"), linear-gradient(
+        90deg, 
+        rgba(224,136,7,1) 0%,
+        rgba(182,127,98,1) 31%,
+        rgba(148,119,172,1) 65%,
+        rgba(0,212,255,1) 100%)!important;
+    color: antiquewhite;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+    /* color: rgb(13, 83, 214); */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    backdrop-filter: blur(0.08rem) brightness(65%);
+}
+
+header {
+    padding: 1.5rem;
+    backdrop-filter: blur(0.06rem) brightness(65%);
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0);
+}
+nav h1{
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+nav ul li:hover {
+    color: rgb(13, 83, 214);
+    transition: 0.4s;
+}
